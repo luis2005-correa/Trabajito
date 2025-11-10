@@ -1,0 +1,148 @@
+
+:root{
+    --color-secundario: #5749b2;
+    --color-fondo: #F5F5F5;
+    --color-texto: #333333;
+    --color-borde : #dddddd;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#quienes{ 
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+
+}
+:root {
+  --bg: #5e17e2;
+  --text: #ffffff;
+  --accent: #e40b8d;
+  --height: 64px;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+
+
+}
+
+.top-panel {
+  height: var(--height);
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+#navegacion a {
+  color: #f7f7f7; 
+  text-decoration: none;  
+  font-weight: bold;  
+  margin: 0 15px; 
+  font-size: medium;
+}
+#navegacion a:hover {
+  color: #00c8ff;  
+  
+}
+
+#Fondo{
+background-color: rgb(251, 250, 247);  
+
+}
+
+#Foo{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--color-secundario);
+    color: white;
+    margin-top: 3rem;
+    background-color: #5e17e2;
+    
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#mmm {
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: rgb(146, 42, 250);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-borde);
+    border-radius: 5px;
+}
+
+button{
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 0.85rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+form{
+    max-width: 500px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ContactanosH2{
+  text-align: center;
+  color: var(--text);
+  
+}
+.nav a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+}
+
+.brand {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+
+
+
+
+
