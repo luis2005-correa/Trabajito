@@ -80,6 +80,8 @@ background-color: rgb(251, 250, 247);
     color: white;
     margin-top: 3rem;
     background-color: #5e17e2;
+    background: linear-gradient(to right, #5e17e2, #af3cf6);
+    padding:  20px ;
     
 }
 body {
